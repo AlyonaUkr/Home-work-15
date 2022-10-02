@@ -1,0 +1,146 @@
+.main-page {
+    padding: 129px 0 172px;
+}
+
+.main-page-flex {
+    display: flex;
+}
+
+.main-page-title {
+    width: 552px;
+    font-family: GraphikLCG-Semibold;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 115%;
+    color: #000000;
+    margin-bottom: 51px;
+}
+
+.main-page-text {
+    width: 471px;
+    font-family: GraphikLCG-Regular;
+    font-size: 25px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 51px;
+}
+
+.button-main-page-free {
+    width: 160px;
+    height: 60px;
+    background: #FF6336;
+    border-radius: 0px;
+    font-family: GraphikLCG-Regular;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+}
+
+.button-main-page-free:hover {
+    background-color: #f9af9b;
+}
+
+.button-demo {
+    background-color: #FFFFFF;
+    width: 160px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    font-family: GraphikLCG-Regular;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.button-demo:hover {
+    background-color: #EEEEEE;
+}
+
+.main-page-description {
+    font-family: GraphikLCG-Regular;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+@media (max-width: 1300px) {
+    .main-page{
+        padding: 50px 0;
+    }
+
+    .main-page-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-page-conteiner {
+        order: 1;
+    }
+
+    .main-page-flex img {
+        width: 100%;
+    }
+
+    .main-page-title {
+        font-size: 45px;
+        margin: 25px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-page-text {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main-page-button {
+        display: flex;
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    .main-page-description {
+        text-align: center;
+    }
+
+    .button-main-page-free, .button-demo {
+        width: 300px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 690px) {
+    .main-page-title {
+        font-size: 30px;
+    }
+
+    .main-page-text {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .main-page-button {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .button-main-page-free, .button-demo {
+        width: 100%;
+        height: 75px;
+        font-size: 25px;
+    }
+
+    .button-main-page-free {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,139 @@
+.section-reviews {
+    background-color: #DABC98;
+    padding: 80px 0 84px;
+}
+
+.section-reviews-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars-reviews-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 71px;
+}
+
+.cake-flex {
+    display: flex;
+    align-items: center;
+}
+
+.section-reviews-title {
+    width: 461px;
+    font-family: GraphikLCG-Semibold;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    margin-left: 67px;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 168px;
+    margin-left: 124px;
+}
+
+.stars-reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-reviews-text {
+    font-family: GraphikLCG-Regular;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.reviews-logo {
+    width: 35px;
+}
+
+.image-stars {
+    width: 128px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1300px) {
+    .cake-flex {
+        width: 780px;
+        justify-content: space-around;
+    }
+
+    .section-reviews-title {
+        margin-left: 0;
+    }
+    
+    .section-reviews-flex {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vl {
+        border-top: 1px solid black;
+        height: 0;
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 780px) {
+    .section-reviews {
+        padding: 50px 0;
+    }
+
+    .section-reviews-title {
+        font-size: 30px;
+    }
+
+    .cake-flex {
+        justify-content: space-between
+    }
+}
+
+@media (max-width: 690px) {
+    .cake-flex {
+        flex-direction: column;
+    }
+
+    .section-reviews-title {
+        text-align: center;
+        font-size: 25px;
+        line-height: 40px;
+        width: 100%;
+    }
+     
+    .cake-flex img {
+        margin-bottom: 20px;
+    }
+
+    .stars-reviews {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .stars-reviews-flex {
+        margin-left: 0;
+    }
+
+    .image-stars {
+        width: 75px;
+        margin-top: 7px;
+    }
+
+    .section-reviews-text {
+        font-family: GraphikLCG-Regular;
+        font-size: 10px;
+        line-height: 18px;
+        margin-top: 7px;
+    }
+
+}
+
+
+

@@ -1,0 +1,235 @@
+.footer-bc {
+    background-color: #EEEEEE;
+    padding: 92px 0 43px;
+}
+
+.footer-first-part {
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.case-studies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-title {
+    font-family: GraphikLCG-Semibold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.specialized-footer {
+    margin: 31px 0 11px;
+}
+
+.footer-text {
+    width: 290px;
+    font-family: GraphikLCG-Regular;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.case-studies a {
+    font-family: GraphikLCG-Semibold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.case-studies a:hover {
+    color: #FF6336;
+}
+
+.footer-cards, .footer-cards-firstpart, .footer-cards-secondpart {
+    display: flex;
+}
+
+.footer-cards-list {
+    width: 221px;
+}
+
+.footer-card-title {
+    font-family: GraphikLCG-Semibold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.footer-cards-list .item {
+    font-family: GraphikLCG-Regular;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.footer-cards-list .item a:hover {
+    color: #FF6336;
+}
+
+.footer-line {
+    border: 1px solid black;
+    display: block;
+    margin: 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+.footer-logo-flex {
+    display: flex;
+}
+
+.footer-logo-text {
+    width: 301px;
+    font-family: GraphikLCG-Regular;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 14px;
+}
+
+.footer-rights {
+    margin-right: 76px;
+}
+
+.footer-rights-text {
+    font-family: GraphikLCG-Regular;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+@media (max-width: 1300px) {
+    .footer-bc {
+        padding: 65px 0 40px;
+    }
+
+    .footer-first-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-cards-list {
+        width: 180px;
+    }
+
+    .case-studies {
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .footer-text {
+        width: 720px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 780px) {
+    .footer-cards {
+        flex-direction: column;
+    }
+
+    .footer-cards-firstpart, .footer-cards-secondpart {
+        width: 680px;
+        justify-content: space-around;
+    }
+
+    .footer-cards-firstpart {
+        margin-bottom: 40px;
+    }
+
+    .footer-cards-list {
+        width: 270px;
+    }
+
+    .footer-cards-list .item a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 690px) {
+    .footer-bc {
+        padding-top: 40px;
+    }
+
+    .footer-first-part {
+        margin-bottom: 0;
+    }
+
+    .footer-title {
+        font-size: 30px;
+    }
+
+    .footer-text {
+        width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .case-studies a {
+        font-size: 25px;
+    }
+
+    .case-studies img {
+        width: 100%;
+    }
+
+    .footer-cards-firstpart, .footer-cards-secondpart {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .footer-card-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer-cards-firstpart {
+        margin-bottom: 0;
+    }
+
+    .footer-cards-list {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-cards-list .item a {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .footer-logo-flex, .footer-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo-text {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .footer-rights {
+        margin-right: 0;
+    }
+
+    .footer-rights-text {
+        text-align: center;
+    }
+
+}
