@@ -144,7 +144,7 @@
     }
 
     .footer-cards-firstpart, .footer-cards-secondpart {
-        width: 680px;
+        max-width: 680px;
         justify-content: space-around;
     }
 
@@ -186,7 +186,7 @@
     }
 
     .case-studies img {
-        width: 100%;
+        max-width: 310px;
     }
 
     .footer-cards-firstpart, .footer-cards-secondpart {
