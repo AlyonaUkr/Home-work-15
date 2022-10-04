@@ -160,6 +160,10 @@
         font-size: 20px;
         line-height: 20px;
     }
+
+    .footer-text {
+        max-width: 690px;
+    }
 }
 
 @media (max-width: 690px) {
